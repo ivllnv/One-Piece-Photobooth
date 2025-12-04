@@ -1,0 +1,41 @@
+:root {
+    --main-text: #333333;
+    --white: #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    font-family: 'Castoro', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
+
+#startBtn {
+    padding: 8px 16px;
+    font-family: 'Castoro Display', serif;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#startBtn:hover {
+    background: #a29074;
+}

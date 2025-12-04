@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <link rel="stylesheet" href="css/frame2.css">
+    <link rel="icon" href="assets\logo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="frame2-container">
+        <!-- Frame Background -->
+        <img src="assets/mugiwara.png" class="frame-bg" alt="Frame 2 Background">
+
+        <!-- First video box -->
+        <div class="photo-box" id="photoBox1">
+            <video id="video1" autoplay></video>
+            <canvas id="canvas1"></canvas>
+            <div class="countdown" id="countdown1">3</div>
+        </div>
+
+        <!-- Second video box -->
+        <div class="photo-box" id="photoBox2">
+            <video id="video2" autoplay></video>
+            <div class="countdown" id="countdown2">3</div>
+        </div>
+    </div>
+    
+    <!-- Capture/Save Buttons -->
+    <div class="buttons-container">
+        <button id="captureBtn">Capture</button>
+        <button id="saveBtn" style="display:none">Edit</button>
+    </div>
+
+    <script src="js/capture-fr2.js"></script>
+</body>
+</html>

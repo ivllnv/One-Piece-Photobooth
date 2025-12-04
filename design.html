@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design & Download</title>
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="icon" href="assets\logo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h4>Add Stickers!</h4>
+        <p>(drag to reposition)</p>
+
+        <!-- Sticker thumbnails -->
+        <div class="sticker-palette">
+            <img src="assets/luffy.png" class="sticker-thumb" alt="Sticker 1">
+            <img src="assets/zoro.png" class="sticker-thumb" alt="Sticker 2">
+            <img src="assets/nami.png" class="sticker-thumb" alt="Sticker 3">
+            <img src="assets/usopp.png" class="sticker-thumb" alt="Sticker 4">
+            <img src="assets/sanji.png" class="sticker-thumb" alt="Sticker 5">
+            <img src="assets/chopper.png" class="sticker-thumb" alt="Sticker 6">
+            <img src="assets/robin.png" class="sticker-thumb" alt="Sticker 7">
+            <img src="assets/franky.png" class="sticker-thumb" alt="Sticker 8">
+            <img src="assets/brook.png" class="sticker-thumb" alt="Sticker 9">
+            <img src="assets/jimbei.png" class="sticker-thumb" alt="Sticker 10">
+        </div>
+    </div>
+
+    <div class="editor-container">
+        <canvas id="editorCanvas"></canvas>
+    </div>
+
+    <div class="tools">
+        <button id="resetBtn">Reset</button>
+        <button id="saveBtn">Save</button>
+    </div>
+
+    <div class="floating-container"></div>
+
+    <script src="js/animations.js"></script>
+    <script src="js/design.js"></script>
+</body>
+</html>

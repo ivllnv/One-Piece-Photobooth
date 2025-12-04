@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <link rel="stylesheet" href="css/frame1.css">
+    <link rel="icon" href="assets\logo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="frame1-container">
+        <video id="video" autoplay playsinline></video>
+        <img src="assets/poster.png" alt="Frame Background" class="frame-bg">
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div id="countdown">3</div>
+
+        <!-- User text input -->
+        <input type="text" id="userText" placeholder="Your Name: (max 10 chars)" maxlength="10">
+        <input type="text" id="berryInput" placeholder="Berry Amount (max 13 int)" maxlength="13">
+    </div>
+
+    <div class="buttons-container">
+        <button id="captureBtn">Capture</button>
+        <button id="saveBtn" style="display:none;">Save</button>
+
+    </div>
+
+    <script src="js/capture.js"></script>
+</body>
+</html>

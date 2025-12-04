@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Frame</title>
+    <link rel="stylesheet" href="css/frames.css">
+    <link rel="icon" href="assets\logo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Display&display=swap" rel="stylesheet"></head>
+<body>
+    <div class="frames-container">
+        <h1>choose a frame :p</h1>
+        <div class="frame-options">
+            <div class="frame" id="frame1">
+                <img src="assets/poster.png" alt="Frame 1">
+                <p>wanted poster</p>
+                <div class="preview">
+                    <img src="assets/chopper-poster.jpg" alt="Preview Frame 1">
+                </div>
+            </div>
+            <div class="frame" id="frame2">
+                <img src="assets/mugiwara.png" alt="Frame 2">
+                <p>cutesie frame</p>
+                <div class="preview">
+                    <img src="assets/frame2-sample.png" alt="Preview Frame 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Redirect when a frame is clicked
+        document.getElementById('frame1').addEventListener('click', () => {
+            window.location.href = 'frame1.html';
+        });
+
+        document.getElementById('frame2').addEventListener('click', () => {
+            window.location.href = 'frame2.html';
+        });
+    </script>
+</body>
+</html>
